@@ -1,0 +1,111 @@
+body {
+  margin-top: -2px;
+  font-family: Arial;
+  font-size: 15px;
+  background-color: #70708b;
+}
+
+p, h1 {
+  color: #ffffff;
+}
+
+.wrapper {
+  width: 975px;
+  margin: auto;
+}
+
+.header {
+  height: 270px;
+  background-color: #151517;
+}
+
+.content {
+  height: 4350px;
+  background-color: #21203d;
+}
+
+.divider {
+  height: 38px;
+  background-color: #3a3a5a;
+}
+
+.divider p {
+  display: inline;
+  padding-left: 22px;
+  vertical-align: middle;
+  line-height: 38px;
+  font-weight: bold;
+  color: #afafca;
+}
+
+.grid1 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 330px 330px;
+  height: auto;
+}
+
+.grid2 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: 325px 325px 325px;
+  grid-template-rows: 330px;
+  height: auto;
+}
+
+.grid3 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 330px 330px 330px;
+  height: auto;
+}
+
+.grid4 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 330px 330px;
+  height: auto;
+}
+
+.grid5 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 330px 330px 330px 330px;
+  height: auto;
+}
+
+.albumblock img {
+  max-width: 270px;
+  max-height: 270px;
+  display: block;
+  margin: 20px auto auto auto;
+}
+
+.albumblock p {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-left: 28px;
+}
+
+.albumblock h1 {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: -14px;
+  margin-left: 28px;
+}
+
+.footer {
+
+}
